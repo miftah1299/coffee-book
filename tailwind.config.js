@@ -8,4 +8,16 @@ export default {
         extend: {},
     },
     plugins: [daisyui],
+    daisyui: {
+        themes: [
+            "light",
+            "dark",
+            "cupcake",
+            "bumblebee",
+            "emerald",
+            "corporate",
+            "synthwave",
+            "retro",
+        ],
+    },
 };
