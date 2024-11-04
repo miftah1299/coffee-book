@@ -1,12 +1,29 @@
 import { createBrowserRouter } from "react-router-dom";
-import App from "../App";
 import MainLayout from "../layouts/MainLayout";
+import Home from "../pages/Home";
+import Coffees from "../pages/Coffees";
+import Dashboard from "../pages/Dashboard";
 
 const routers = createBrowserRouter([
     {
         path: "/",
         element: <MainLayout />,
+        children: [
+            {
+                path: "/",
+                element: <Home />,
+                children: [],
+            },
+            {
+                path: "/coffees",
+                element: <Coffees />,
+            },
+            {
+                path: "/dashboard",
+                element: <Dashboard />,
+            },
+        ],
     },
 ]);
 
-export default routers
+export default routers;
