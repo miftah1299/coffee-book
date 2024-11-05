@@ -4,6 +4,7 @@ import Home from "../pages/Home";
 import Coffees from "../pages/Coffees";
 import Dashboard from "../pages/Dashboard";
 import CoffeeCards from "../components/CoffeeCards";
+import CoffeeDetails from "../pages/CoffeeDetails";
 
 const routers = createBrowserRouter([
     {
@@ -35,6 +36,10 @@ const routers = createBrowserRouter([
             {
                 path: "/dashboard",
                 element: <Dashboard />,
+            },
+            {
+                path: "/coffees/:id",
+                element: <CoffeeDetails />,
             },
         ],
     },
