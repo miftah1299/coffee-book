@@ -1,8 +1,10 @@
-import { useLoaderData, useParams } from "react-router-dom";
+import { useLoaderData, useNavigate, useParams } from "react-router-dom";
 import Card from "./Card";
 import { useEffect, useState } from "react";
 
 const CoffeeCards = () => {
+    const navigate = useNavigate();
+
     const data = useLoaderData();
     const { category } = useParams();
 
@@ -21,10 +23,18 @@ const CoffeeCards = () => {
     // console.log(category);
 
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-1">
-            {coffees.map((coffee) => (
-                <Card key={coffee.id} coffee={coffee}></Card>
-            ))}
+        <div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-1">
+                {coffees.map((coffee) => (
+                    <Card key={coffee.id} coffee={coffee}></Card>
+                ))}
+            </div>
+            <button
+                onClick={() => navigate("/coffees")}
+                className="btn btn-warning font-semibold mt-2"
+            >
+                View All
+            </button>
         </div>
     );
 };
