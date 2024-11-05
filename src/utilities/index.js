@@ -1,7 +1,5 @@
-/*
+import toast from "react-hot-toast";
 
-
-*/
 // get all coffees from local storage
 const getAllFavorites = () => {
     // get all coffees from local storage
@@ -18,17 +16,20 @@ const addFavorite = (coffee) => {
     const favorites = getAllFavorites();
     const isExist = favorites.find((item) => item.id === coffee.id);
     if (isExist) {
-        return alert("Already Added to Favorites");
+        return toast.error("Already Added to Favorites");
     }
 
     // add the new coffee to the array
     favorites.push(coffee);
     // stringify the array and store it in local storage
     localStorage.setItem("favorites", JSON.stringify(favorites));
+    toast.success("Added to Favorites");
 };
 
-// get all coffees from local storage
+/*
 
+
+*/
 // remove a coffee from local storage
 
 export { addFavorite, getAllFavorites };
