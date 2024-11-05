@@ -1,11 +1,14 @@
+import { useLoaderData } from "react-router-dom";
+import Card from "../components/Card";
 
 const Coffees = () => {
+    const data = useLoaderData();
+
     return (
-        <div>
-            <h2>
-                This is the Coffees page. Here you can view the list of coffees and see
-                the details of each coffee. Enjoy!
-            </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {data.map((coffee) => (
+                <Card key={coffee.id} coffee={coffee}></Card>
+            ))}
         </div>
     );
 };
