@@ -9,11 +9,6 @@ const Home = () => {
 
     return (
         <div>
-            {/* <Heading
-                title={"Welcome to the Coffee House"}
-                subtitle={"The best place to find the best coffee in town"}
-            ></Heading> */}
-
             {/* Banner */}
             <Banner></Banner>
             {/* Heading */}

@@ -5,6 +5,8 @@ const Card = ({ coffee }) => {
     const { id, name, image, category, origin, type, rating, popularity } =
         coffee || {};
 
+    console.log(coffee);
+
     return (
         <div className="mt-4">
             <Link to={`/coffees/${id}`}>
