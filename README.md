@@ -1,8 +1,18 @@
-# React + Vite
+# Coffee Book
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Coffee Book project! This project is a web application that allows users to explore different types of coffee, view details about each coffee, and manage their favorite coffees.
 
-Currently, two official plugins are available:
+## Live Link
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Check out the live version of the Coffee Book project [here](http://coffee-book-website-react-router.surge.sh).
+
+## Features
+
+-   **Explore Coffees**: Browse through a variety of coffee types.
+-   **Coffee Details**: View detailed information about each coffee, including ingredients, making process, and nutrition information.
+-   **Favorites**: Add coffees to your favorites list and manage them.
+-   **Search**: Quickly find specific coffees using the search functionality.
+-   **Ratings and Reviews**: Read and leave ratings and reviews for each coffee.
+-   **User Authentication**: Sign up and log in to save your favorite coffees and reviews.
+-   **Responsive Design**: Enjoy a seamless experience on both desktop and mobile devices.
+<!-- -   **Dark Mode**: Switch between light and dark themes for a comfortable viewing experience. -->
