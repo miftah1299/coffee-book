@@ -4,7 +4,7 @@ Welcome to the Coffee Book project! This project is a web application that allow
 
 ## Live Link
 
-Check out the live version of the Coffee Book project [here](http://coffee-book-website-react-router.surge.sh).
+Check out the live version of the Coffee Book project [here](http://coffee-book-website.surge.sh).
 
 ## Features
 
