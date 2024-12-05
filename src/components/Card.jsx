@@ -5,7 +5,7 @@ const Card = ({ coffee }) => {
     const { id, name, image, category, origin, type, rating, popularity } =
         coffee || {};
 
-    console.log(coffee);
+    // console.log(coffee);
 
     return (
         <div className="mt-4">
