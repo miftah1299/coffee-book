@@ -4,7 +4,7 @@ Welcome to the Coffee Book project! This project is a web application that allow
 
 ## Live Link
 
-Check out the live version of the Coffee Book project [here](http://coffee-book-website.surge.sh).
+Check out the live version of the Coffee Book project: [Coffee Book](http://coffee-book-website.surge.sh).
 
 ## Features
 
@@ -13,6 +13,5 @@ Check out the live version of the Coffee Book project [here](http://coffee-book-
 -   **Favorites**: Add coffees to your favorites list and manage them.
 -   **Search**: Quickly find specific coffees using the search functionality.
 -   **Ratings and Reviews**: Read and leave ratings and reviews for each coffee.
--   **User Authentication**: Sign up and log in to save your favorite coffees and reviews.
 -   **Responsive Design**: Enjoy a seamless experience on both desktop and mobile devices.
 <!-- -   **Dark Mode**: Switch between light and dark themes for a comfortable viewing experience. -->

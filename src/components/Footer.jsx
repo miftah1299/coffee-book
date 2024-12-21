@@ -45,7 +45,7 @@ const Footer = () => {
             <aside>
                 <p>
                     Copyright © {new Date().getFullYear()} - All right reserved
-                    by Coffee House Inc.
+                    by Coffee Book Inc.
                 </p>
             </aside>
         </footer>
